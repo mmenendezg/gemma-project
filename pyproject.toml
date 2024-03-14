@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "gemma-project"
+version = "0.1.0"
+description = "Project to apply Gemma to Data Science tasks by Kaggle"
+authors = ["Marlon Menendez <marlon.menendezg@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">3.11,<3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
